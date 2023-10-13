@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
             title: const Text("Valen Julyo Armando Davincy Lin"),
           ),
           body: const Center(
-            child: Text("Hello Valen Julyo Armando Davincy Lin"),
+            child: Text("Hello Valn Julyo Armando Davincy Lin"),
           ),
         ));
   }
