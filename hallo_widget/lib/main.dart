@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: "Halo Widget",
         theme: ThemeData(primarySwatch: Colors.red),
-        home: WidgetDemo());
+        home: const WidgetDemo());
   }
 }
 
