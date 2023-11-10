@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wisatacandi/data/candi_data.dart';
 import 'package:wisatacandi/screens/detail_screen.dart';
+import 'package:wisatacandi/screens/home_screen.dart';
 import 'package:wisatacandi/screens/profile_screen.dart';
 import 'package:wisatacandi/screens/search_screen.dart';
 import 'package:wisatacandi/screens/sign_in_screen.dart';
@@ -33,7 +34,9 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: SearchScreen(),
+      home: HomeScreen(),
+      // home: SearchScreen(),
+      // home: HomeScreen(),
       // home: const ProfileScreen(),
       // home: SignInScreen(),
       //home: DetailScreen(candi: candiList[0]),
