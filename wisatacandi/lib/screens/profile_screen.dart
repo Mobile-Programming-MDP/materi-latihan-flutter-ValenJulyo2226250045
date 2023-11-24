@@ -16,6 +16,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
   late Color iconColor;
 
   void signIn() {
+    // setState((){
+    //  isSignedIn = true;
+    //  fullName = 'Christian Bautista';
+    //  userName = 'christianb';
+    //  favoriteCandiCount = 2;
+    // });
     Navigator.pushNamed(context, '/signin');
   }
 

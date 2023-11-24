@@ -36,8 +36,8 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: SignUpScreen(),
-      // home: MainScreen(),
+      // home: SignUpScreen(),
+      home: MainScreen(),
       // home: HomeScreen(),
       // home: SearchScreen(),
       // home: const ProfileScreen(),
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/homescreen': (context) => const HomeScreen(),
-        '/signin': (context) => const SignInScreen(),
+        '/signin': (context) => SignInScreen(),
         '/signup': (context) => const SignUpScreen(),
       },
     );
@@ -81,6 +81,7 @@ class _MainScreenState extends State<MainScreen> {
             canvasColor: Colors.deepPurple[50],
           ),
           child: BottomNavigationBar(
+            type: BottomNavigationBarType.fixed,
             currentIndex: _currentIndex,
             onTap: (index) {
               setState(() {
