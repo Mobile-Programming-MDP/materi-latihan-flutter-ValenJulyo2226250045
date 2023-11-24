@@ -43,6 +43,12 @@ class MyApp extends StatelessWidget {
       // home: const ProfileScreen(),
       // home: SignInScreen(),
       // home: DetailScreen(candi: candiList[0]),
+      initialRoute: '/',
+      routes: {
+        '/homescreen': (context) => const HomeScreen(),
+        '/signin': (context) => const SignInScreen(),
+        '/signup': (context) => const SignUpScreen(),
+      },
     );
   }
 }
